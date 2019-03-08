@@ -1,0 +1,1 @@
+export default (attemps) => alert(`You got it after ${attemps} attemps!`);
