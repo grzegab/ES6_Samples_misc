@@ -7,6 +7,16 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
     <title>ES6 Demo App</title>
+    <style>
+      p.hover {
+        color: blue;
+        transition: border-bottom 1s;
+      }
+
+      p.hover:hover {
+        border-bottom: 3px lightblue solid;
+      }
+    </style>
   </head>
   <body>
     <noscript>
@@ -14,6 +24,8 @@
     </noscript>
 
     <my-page></my-page>
+
+    <p class="hover">Something that should have underline.</p>
   <script type="text/javascript" src="dist/webcomponents.js"></script>
   </body>
 </html>
