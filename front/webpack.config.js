@@ -8,11 +8,22 @@ module.exports = {
         webcomponents: './src/webcomponents.js',
         joke: './src/joke.js',
         game: './src/index_game.js',
+        samplePage: './src/sample_page.js',
+        loading: './src/loading.js',
         hospital: './src/hospital.js'
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'public/index.html'
+            template: 'public/index.html',
+            filename: 'index2.html'
         })
-    ]
+    ],
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader?modules"]
+            }
+        ]
+    }
 };

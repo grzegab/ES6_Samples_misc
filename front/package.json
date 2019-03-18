@@ -4,7 +4,12 @@
   "description": "This is test app for showing github resume using ES6.",
   "main": "src/index.js",
   "dependencies": {
-    "markdown-element": "^2.0.2"
+    "css-loader": "^2.1.1",
+    "markdown-element": "^2.0.2",
+    "style-loader": "^0.23.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2"
   },
   "devDependencies": {
     "eslint": "^5.14.1",
