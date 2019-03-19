@@ -10,6 +10,7 @@ module.exports = {
         game: './src/index_game.js',
         samplePage: './src/sample_page.js',
         loading: './src/loading.js',
+        generator: './src/generator.js',
         hospital: './src/hospital.js'
     },
     plugins: [
