@@ -9,7 +9,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "css-loader": "^2.1.1",
     "markdown-element": "^2.0.2",
-    "npm": "^6.9.0",
+    "npm": "^6.13.4",
     "style-loader": "^0.23.1"
   },
   "devDependencies": {
